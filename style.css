@@ -1,0 +1,144 @@
+#title {
+	background-color: rgb(211, 209, 209);
+}
+.grey{
+    background-color: rgb(194, 189, 189);
+}
+.title-img {
+	width: 100%;
+	right: 30%;
+	/* top: 5%; */
+	/* transform: rotate(25deg); */
+
+	position: absolute;
+}
+@media (max-width: 987px) {
+	.title-img {
+		position: static;
+		transform: rotate(0);
+	}
+	#title {
+		text-align: center;
+	}
+}
+.icon {
+	color: #ff4c68;
+	margin-bottom: 10px;
+}
+.icon:hover {
+	color: black;
+}
+#features {
+	padding: 3% 15%;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+}
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+h3 {
+	font-family: "Montserrat-Bold";
+	/* font-weight: bold; */
+}
+h1 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 15px;
+}
+.nav-link {
+	font-family: "Montserrat";
+	font-size: 1.2rem;
+}
+.extra-btn {
+	margin: 5% 3% 5% 0;
+}
+#khari {
+	width: 60%;
+}
+#testimonials {
+	background-color: rgb(194, 189, 189);
+	color: rgb(43, 39, 39);
+	text-align: center;
+}
+/* pricing column */
+.pc {
+	padding: 3% 2%;
+}
+#pricing {
+	/* padding: 100px; */
+	padding: 100px;
+	text-align: center;
+}
+h2 {
+	font-family: "Montserrat-Bold";
+	font-size: 3rem;
+	line-height: 1.5;
+	text-align: center;
+}
+h5 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 3rem;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2rem;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+.testimonials-img {
+	width: 30%;
+	border-radius: 100%;
+	margin: 5%;
+}
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+#press {
+	background-color: rgb(194, 189, 189);
+	text-align: center;
+	padding-bottom: 3%;
+}
+#footer {
+	background-color: rgb(194, 189, 189);
+	color: rgb(43, 39, 39);
+	text-align: center;
+	padding: 5% 15%;
+}
+.cta-heading {
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+}
+.dbtn {
+	margin: 5% 3% 5% 0;
+}
+#cr {
+	text-align: center;
+	padding: 0.5% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+#ctext{
+    font-size: 35px;
+    color: rgb(235, 109, 109);
+}
+#ctext:hover{
+    color: blue;
+}
